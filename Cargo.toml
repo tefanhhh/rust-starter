@@ -5,8 +5,10 @@ edition = "2021"
 
 [dependencies]
 actix-web = "4.9.0"
+chrono = "0.4.39"
 dotenvy = "0.15.7"
 futures = "0.3.31"
+jsonwebtoken = "9.3.0"
 serde = "1.0.217"
 
 [dependencies.mongodb]
